@@ -63,14 +63,26 @@
 
 // -------------------------------------------------------
 
-const test = function () {
-    console.log(arguments);
+// const test = function () {
+//     console.log(arguments);
 
-    const convertToArray = Array.from(arguments);
+//     const convertToArray = Array.from(arguments);
 
-    console.log(`convertToArray`, convertToArray);
-};
+//     console.log(`convertToArray`, convertToArray);
+// };
 
-test(32, 323, 546, 'friday', 56, 7);
+// test(32, 323, 546, 'friday', 56, 7);
 
-console.log('array :', [32, 323, 546, 'friday', 56, 7]);
+// console.log('array :', [32, 323, 546, 'friday', 56, 7]);
+
+// -------------------------------------------------------
+
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients = oldClients.concat(newClients);
+
+// console.log(oldClients);
+// console.log(allClients);
+
+// -------------------------------------------------------
